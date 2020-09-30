@@ -82,12 +82,12 @@ textcolor(3);
 gotoxy(42,1);cprintf("PRO");
 sleep(delayx);
 textcolor(pat);
-gotoxy(34,3);cprintf("   €   €");
-gotoxy(34,4);cprintf("‹‹‹€‹‹‹€‹‹‹");
-gotoxy(34,5);cprintf("   €   €");
-gotoxy(34,6);cprintf("‹‹‹€‹‹‹€‹‹‹");
-gotoxy(34,7);cprintf("   €   €");
-gotoxy(34,8);cprintf("   ﬂ   ﬂ");
+gotoxy(34,3);cprintf("   √õ   √õ");
+gotoxy(34,4);cprintf("√ú√ú√ú√õ√ú√ú√ú√õ√ú√ú√ú");
+gotoxy(34,5);cprintf("   √õ   √õ");
+gotoxy(34,6);cprintf("√ú√ú√ú√õ√ú√ú√ú√õ√ú√ú√ú");
+gotoxy(34,7);cprintf("   √õ   √õ");
+gotoxy(34,8);cprintf("   √ü   √ü");
 sleep(delayx);
 textcolor(os);
 gotoxy(35,3);cprintf("o");
@@ -159,7 +159,7 @@ clrscr();
 for(lo=28; lo<=53; lo++)
 {
 textcolor(8);
-gotoxy(lo,14);cprintf("€€");
+gotoxy(lo,14);cprintf("√õ√õ");
 }
 
 
@@ -168,7 +168,7 @@ for(lo=0, di=28; lo<=100; lo+=4, di++)
 textcolor(15);
 gotoxy(28,12);cprintf("initializing game...");
 gotoxy(28,13);cprintf("%d%", lo);
-gotoxy(di,14);cprintf("€€");
+gotoxy(di,14);cprintf("√õ√õ");
 delay(delayload);
 }
 
@@ -182,12 +182,12 @@ gotoxy(34,1);cprintf("TIC TAC");
 textcolor(11);
 gotoxy(42,1);cprintf("PRO");
 textcolor(pat);
-gotoxy(34,3);cprintf(" 1 € 2 € 3");
-gotoxy(34,4);cprintf("‹‹‹€‹‹‹€‹‹‹");
-gotoxy(34,5);cprintf(" 4 € 5 € 6");
-gotoxy(34,6);cprintf("‹‹‹€‹‹‹€‹‹‹");
-gotoxy(34,7);cprintf(" 7 € 8 € 9");
-gotoxy(34,8);cprintf("   ﬂ   ﬂ");
+gotoxy(34,3);cprintf(" 1 √õ 2 √õ 3");
+gotoxy(34,4);cprintf("√ú√ú√ú√õ√ú√ú√ú√õ√ú√ú√ú");
+gotoxy(34,5);cprintf(" 4 √õ 5 √õ 6");
+gotoxy(34,6);cprintf("√ú√ú√ú√õ√ú√ú√ú√õ√ú√ú√ú");
+gotoxy(34,7);cprintf(" 7 √õ 8 √õ 9");
+gotoxy(34,8);cprintf("   √ü   √ü");
 backgame:
 textcolor(txt);
 gotoxy(1,25);cprintf("E it");
@@ -775,7 +775,7 @@ clrscr();
 for(lo=28; lo<=53; lo++)
 {
 textcolor(8);
-gotoxy(lo,14);cprintf("€€");
+gotoxy(lo,14);cprintf("√õ√õ");
 }
 
 
@@ -784,7 +784,7 @@ for(lo=0, di=28; lo<=100; lo+=4, di++)
 textcolor(15);
 gotoxy(28,12);cprintf("initializing game...");
 gotoxy(28,13);cprintf("%d%", lo);
-gotoxy(di,14);cprintf("€€");
+gotoxy(di,14);cprintf("√õ√õ");
 delay(delayload);
 }
 sleep(2);
@@ -841,12 +841,12 @@ gotoxy(34,1);cprintf("TIC TAC");
 textcolor(11);
 gotoxy(42,1);cprintf("PRO");
 textcolor(pat);
-gotoxy(34,3);cprintf(" 1 € 2 € 3");
-gotoxy(34,4);cprintf("‹‹‹€‹‹‹€‹‹‹");
-gotoxy(34,5);cprintf(" 4 € 5 € 6");
-gotoxy(34,6);cprintf("‹‹‹€‹‹‹€‹‹‹");
-gotoxy(34,7);cprintf(" 7 € 8 € 9");
-gotoxy(34,8);cprintf("   ﬂ   ﬂ");
+gotoxy(34,3);cprintf(" 1 √õ 2 √õ 3");
+gotoxy(34,4);cprintf("√ú√ú√ú√õ√ú√ú√ú√õ√ú√ú√ú");
+gotoxy(34,5);cprintf(" 4 √õ 5 √õ 6");
+gotoxy(34,6);cprintf("√ú√ú√ú√õ√ú√ú√ú√õ√ú√ú√ú");
+gotoxy(34,7);cprintf(" 7 √õ 8 √õ 9");
+gotoxy(34,8);cprintf("   √ü   √ü");
 if(choices2=='D' || choices2=='d')
   {
   textcolor(os);
@@ -2518,12 +2518,12 @@ else if(ver=='o' || ver=='O')
     textcolor(15);
     gotoxy(39,1);cprintf("VIEW");
     textcolor(pat);
-    gotoxy(34,3);cprintf("   €   €");
-    gotoxy(34,4);cprintf("‹‹‹€‹‹‹€‹‹‹");
-    gotoxy(34,5);cprintf("   €   €");
-    gotoxy(34,6);cprintf("‹‹‹€‹‹‹€‹‹‹");
-    gotoxy(34,7);cprintf("   €   €");
-    gotoxy(34,8);cprintf("   ﬂ   ﬂ");
+    gotoxy(34,3);cprintf("   √õ   √õ");
+    gotoxy(34,4);cprintf("√ú√ú√ú√õ√ú√ú√ú√õ√ú√ú√ú");
+    gotoxy(34,5);cprintf("   √õ   √õ");
+    gotoxy(34,6);cprintf("√ú√ú√ú√õ√ú√ú√ú√õ√ú√ú√ú");
+    gotoxy(34,7);cprintf("   √õ   √õ");
+    gotoxy(34,8);cprintf("   √ü   √ü");
     textcolor(os);
     gotoxy(35,3);cprintf("o");
     gotoxy(43,3);cprintf("o");
@@ -2671,7 +2671,7 @@ else if(ver=='a' || ver=='A')
   for(lo=28; lo<=53; lo++)
     {
     textcolor(8);
-    gotoxy(lo,14);cprintf("€€");
+    gotoxy(lo,14);cprintf("√õ√õ");
     }
 
 
@@ -2680,7 +2680,7 @@ else if(ver=='a' || ver=='A')
     textcolor(15);
     gotoxy(28,12);cprintf("Uninstalling files...");
     gotoxy(28,13);cprintf("%d%", lo);
-    gotoxy(di,14);cprintf("€€");
+    gotoxy(di,14);cprintf("√õ√õ");
     delay(200);
     }
   clrscr();
@@ -2740,3 +2740,4 @@ else
   goto verback;
 return 0;
 }
+/this is my game/
