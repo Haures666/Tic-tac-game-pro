@@ -1,1 +1,1 @@
-# Tic-tac-game-pro
+# Tic-tac-game
